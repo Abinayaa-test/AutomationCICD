@@ -21,7 +21,7 @@ import frameworktest.pageObjects.ProductCatalogue;
 public class SubmitOrderTest extends BaseTest{
 	
 	String productName = "ADIDAS ORIGINAL";
-
+	//new comments to test CICD
 	@Test(dataProvider = "MyLoginData")
 	public void submitOrder(HashMap<String,String> input) throws IOException
 	{
